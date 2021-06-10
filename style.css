@@ -657,13 +657,14 @@ a.step_btn:active {
 .hire_me_wrapper {
   background-attachment: fixed;
   background-color: #2d3e50;
-  background-image: url("img/expreince_wrapper_bg.jpg");
+  /* background-image: url("img/expreince_wrapper_bg.jpg"); */
+  background-image: url("sham-jallaludin.jpg");
   color: #fff;
   text-align: center;
   position: relative;
   z-index: 1;
-  -webkit-animation: animateBg 5s liner infinite;
-  animation: animatedBg 5s linear infinite;
+  -webkit-animation: animateBg 15s liner infinite;
+  animation: animatedBg 15s linear infinite;
 }
 
 @-webkit-keyframes animatedBg {
@@ -705,14 +706,14 @@ a.step_btn:active {
   color: #fff;
   border: 3px solid #fff;
   border-radius: 2px;
-  font-size: 19px;
-  height: 40px;
+  font-size: 50px;
+  height: 100px;
   margin: 25px auto;
   padding: 5px;
   -webkit-transform: rotate(17deg);
   -ms-transform: rotate(17deg);
   transform: rotate(17deg);
-  width: 40px;
+  width: 100px;
 }
 
 .expreince_wrapper span {
@@ -1397,4 +1398,8 @@ a.go_top_visible {
 
 #nav-heading {
   margin-top: 20px;
+}
+
+.experience {
+  color: white;
 }
