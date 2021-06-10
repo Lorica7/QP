@@ -98,13 +98,13 @@
                 scrollwheel: false,
                 disableDoubleClickZoom: true,
 
-                center: new google.maps.LatLng(23.810332, 90.412518),
+                center: new google.maps.LatLng(26.223158, -81.754302),
 
                 styles: [{ 
                     "featureType": "water",
                     "elementType": "geometry",
                     "stylers": [{
-                        "color": "#e9e9e9"
+                        "color": "#42e9f5"
                     }, {
                         "lightness": 17
                     }]
@@ -112,7 +112,7 @@
                     "featureType": "landscape",
                     "elementType": "geometry",
                     "stylers": [{
-                        "color": "#f5f5f5"
+                        "color": "##76b380"
                     }, {
                         "lightness": 20
                     }]
