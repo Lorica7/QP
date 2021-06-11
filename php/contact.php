@@ -3,9 +3,9 @@
 		$msg="Name: ".$_POST['name']."\nEmail: ".$_POST['email']."\nSub: "
             .$_POST['sub']."\nMsg: ".$_POST['msg']."\n";
 		mail("hello@daniellelamorte.com", $msg);
-		header("location:../index.html");
+		header("daniellelamorte.com");
 	}
 	else{
-		header("location:../index.html");
+		header("daniellelamorte.com");
 	}
 ?>
