@@ -86,7 +86,7 @@ img {
 
 p {
   margin: 0 0 15px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 h1,
@@ -598,7 +598,7 @@ a.step_btn:active {
 .about_content p {
   color: #777;
   font-weight: 100;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .about_content p.about_title {
@@ -624,7 +624,7 @@ a.step_btn:active {
 .skillBar {
   color: #fff;
   border-radius: 25px;
-  font-size: 13px;
+  font-size: 20px;
   height: 5px;
   padding: 0 12px;
   position: relative;
@@ -1005,7 +1005,7 @@ a.port_item:hover i {
 .service_item_inner i {
   color: #fff;
   border-radius: 50%;
-  font-size: 22px;
+  font-size: 30px;
   height: 50px;
   line-height: 50px;
   display: inline-block;
@@ -1406,4 +1406,10 @@ a.go_top_visible {
 
 .light-link {
   color: whitesmoke;
+}
+
+.inline-image {
+  display: inline;
+  margin-bottom: 20px;
+  width: 75px;
 }
